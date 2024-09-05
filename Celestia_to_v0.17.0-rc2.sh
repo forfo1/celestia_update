@@ -66,7 +66,7 @@ print_color "35" "10초만 대기"
 sleep 10
 
 celestia version
-sudo systemctl status celestia-light
+sudo systemctl status celestia-light --no-pager
 
 print_color "31" "celestia version에서 Semantic version, v0.17.0-rc2 확인" 
 print_color "32" "sudo systemctl status celestia-light, active (running) 확인" 
